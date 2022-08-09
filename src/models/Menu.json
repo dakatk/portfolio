@@ -1,0 +1,50 @@
+[
+    {
+        "title": "Welcome",
+        "route": "/",
+        "id": "welcome"
+    },
+    {
+        "title": "About Me",
+        "route": "/about-me",
+        "id": "about-me"
+    },
+    {
+        "title": "Hardware",
+        "route": "/hardware",
+        "id": "hardware",
+        "submenu": [
+            {
+                "title": "Personal Computer",
+                "route": "/pc-build"
+            },
+            {
+                "title": "Sleeper PC",
+                "route": "/sleeper-pc"
+            },
+            {
+                "title": "Handhelds",
+                "route": "/handhelds"
+            },
+            {
+                "title": "\"Smart\" Brace",
+                "route": "/kinda-smart-watch"
+            }
+        ]
+    },
+    {
+        "title": "Software",
+        "route": "/software",
+        "id": "software",
+        "submenu": [
+            {
+                "title": "Reactive Engine",
+                "route": "/reactive-engine"
+            },
+            {
+                "title": "Deno Web API",
+                "route": "/deno-web-api"
+            }
+        ]
+    }
+]
